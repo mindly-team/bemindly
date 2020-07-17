@@ -1,14 +1,15 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="../assets/logo.png" />
+    <p>Hello World</p>
   </div>
 </template>
 
+<script>
 export default {
-  name: 'Test',
+  name: "Test",
   components: {
-    HelloWorld,
-  },
+    HelloWorld
+  }
 };
 </script>
